@@ -7,7 +7,4 @@ spring:
       host: localhost
   session:
     store-type: redis
-  security:
-    user:
-      name: hemant
-      password: sahu
+    timeout: 30
